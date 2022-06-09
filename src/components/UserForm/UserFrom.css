@@ -1,0 +1,26 @@
+.form {
+  border: 1px solid;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.input-parent {
+  margin: 10px;
+  border: 1px solid;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-parent label {
+  margin-right: 10px;
+}
+.input-parent input {
+  padding: 10px;
+  font-size: 15px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

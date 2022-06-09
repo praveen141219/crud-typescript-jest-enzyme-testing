@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user form component should  render 1`] = `
+<Fragment>
+  <div
+    className="form"
+  >
+    <div
+      className="input-parent"
+    >
+      <label>
+        User Name
+      </label>
+      <input
+        data-testid="username"
+        name="username"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="input-parent"
+    >
+      <label>
+        Age
+      </label>
+      <input
+        data-testid="age"
+        name="age"
+        onChange={[Function]}
+        type="number"
+      />
+    </div>
+    <button
+      data-testid="submitBtn"
+      onClick={[Function]}
+    >
+      submit
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`user form component should  render 2`] = `
+<Fragment>
+  <div
+    className="form"
+  >
+    <div
+      className="input-parent"
+    >
+      <label>
+        User Name
+      </label>
+      <input
+        data-testid="username"
+        name="username"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-parent"
+    >
+      <label>
+        Age
+      </label>
+      <input
+        data-testid="age"
+        name="age"
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+    </div>
+    <button
+      data-testid="updateBtn"
+      onClick={[Function]}
+    >
+      update
+    </button>
+  </div>
+</Fragment>
+`;
